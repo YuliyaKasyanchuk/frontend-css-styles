@@ -1,0 +1,51 @@
+body
+{
+    background-image:url(bg_body.jpg);
+    width:100%;
+  
+}
+
+.content{
+    width: 1000px;
+    margin: 0 auto;
+  
+   
+}
+
+section{
+    font-size: 14px; 
+    font-family: Georgia;
+    font-style:italic;
+    line-height: 22px;
+    color: rgb(214,183,75);
+    background:url(bg_about.png) 56px 45px no-repeat,
+        url(bg_promo.png);
+    
+}
+
+.promo{
+   
+    height: 158px;
+    padding: 30px 60px 30px 145px;
+    border-radius: 5px;
+   
+}
+
+h1{
+    font-size: 22px;
+    font-family: Georgia;
+    font-style:italic;
+    color: rgb(234,212,170);
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+h3{
+    font-size: 11px;
+    font-family: Verdana;
+  
+}
