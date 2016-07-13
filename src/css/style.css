@@ -23,7 +23,7 @@ body
 
 section{
     font-size: 14px; 
-    font-family: Georgia, Garamond,Frosty;
+    font-family: Georgia, Garamond,Frosty,sans-serif;
     font-style:italic;
     line-height: 22px;
     color: rgb(214,183,75);
@@ -43,7 +43,7 @@ section{
 
 h1{
     font-size: 22px;
-    font-family:Georgia, Garamond,Frosty;
+    font-family:Georgia, Garamond,Frosty,sans-serif;
     font-style:italic;
     color: rgb(234,212,170);
     padding-bottom: 20px;
@@ -51,7 +51,7 @@ h1{
 
  h2{
     font-size: 18px;
-    font-family: Georgia, Garamond,Frosty;
+    font-family: Georgia, Garamond,Frosty,sans-serif;
     color: rgb(255,246,141);
     padding-bottom: 24px;
     padding-top: 46px;
@@ -60,7 +60,7 @@ h1{
 
 p{
     font-size: 11px;
-    font-family: Verdana;
+    font-family: Verdana,cursive;
     color: rgb(215,207,200);
     margin-left: 146px;
     
@@ -92,14 +92,14 @@ p{
     left: 167px;
     color: rgb(249,218,90); 
     display:inline;
-    font-family: Verdana;
+    font-family: Verdana,cursive;
     font-size: 11px;
     margin-top: 55px;
 }
 
 .footer .menu-item{
     display: inline;
-    font-family: Verdana;
+    font-family: Verdana,cursive;
     font-size: 11px;
     margin-top:50px;
     margin-bottom: 15px;
