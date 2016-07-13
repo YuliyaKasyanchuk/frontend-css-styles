@@ -1,6 +1,6 @@
 body
 {
-    background-image:url(bg_body.jpg);
+    background-image:url(../images/bg_body.jpg);
     width:100%;
   
 }
@@ -8,8 +8,17 @@ body
 .content{
     width: 1000px;
     margin: 0 auto;
-  
-   
+    border-bottom-style: solid;
+    border-bottom-color: rgb(153,121,60); 
+    border-bottom-width: 2px;
+    padding-bottom: 35px;
+}
+
+.content hr{
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; 
 }
 
 section{
@@ -18,16 +27,17 @@ section{
     font-style:italic;
     line-height: 22px;
     color: rgb(214,183,75);
-    background:url(bg_about.png) 56px 45px no-repeat,
-        url(bg_promo.png);
-    
+    background:url(../images/bg_about.png) 56px 45px no-repeat,
+        url(../images/bg_promo.png);
+    margin-bottom: 55px;
+   
 }
 
 .promo{
    
-    height: 158px;
+    height: 156px;
     padding: 30px 60px 30px 145px;
-    border-radius: 5px;
+    border-radius: 10px;
    
 }
 
@@ -39,13 +49,148 @@ h1{
     padding-bottom: 20px;
 }
 
-h2{
+ h2{
     font-size: 18px;
     font-family: Georgia;
+    color: rgb(255,246,141);
+    padding-bottom: 24px;
+    padding-top: 46px;
+    margin-left: 146px;
 }
 
-h3{
+p{
     font-size: 11px;
     font-family: Verdana;
-  
+    color: rgb(215,207,200);
+    margin-left: 146px;
+    
+}
+
+.article{
+   width: 980px;
+    margin: 0 auto;
+}
+.content .article img {
+    position: relative;
+    left:20px;
+    float:left;
+}
+
+.footer{
+    width:1000px;
+    height: 138px;
+    margin: 0 auto;
+    margin-top:65px;
+    border-top: 20px;
+    border-color: red;
+    color: rgb(249,218,90);  
+    display: inline;
+}
+
+.footer div{
+    position: absolute;
+    left: 167px;
+    color: rgb(249,218,90); 
+    display:inline;
+    font-family: Verdana;
+    font-size: 11px;
+    margin-top: 55px;
+}
+
+.footer .menu-item{
+    display: inline;
+    font-family: Verdana;
+    font-size: 11px;
+    margin-top:50px;
+    margin-bottom: 15px;
+    width:auto;
+    position: relative;
+    left: 561px;
+}
+
+.footer .menu-item a{
+    color: rgb(224,219,215);  
+    border-right: 2px solid rgb(224,219,215);
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.footer nav{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.lang-item {
+    display:inline-block;
+    color: rgb(192,172,133);
+     border-right: 2px solid rgb(224,219,215);
+     margin-left: 10px;
+    padding-right: 10px;
+}
+
+.lang-item  a{
+    display: inline-block;
+     color: rgb(222,217,214);
+
+}
+
+.lang-list{
+     position: absolute;
+    left: 167px;
+    margin-top: -42 px;
+    margin-left: - 20px;
+    
+}
+
+.auth{
+    display:inline;
+    margin-top: -42px;
+    position:relative;
+    margin-left: 905px;
+   
+}
+
+.auth a{
+    color: rgb(192,172,133);
+    border-right: 2px solid rgb(224,219,215);
+     margin-left: 10px;
+    padding-right: 10px;
+}
+
+/*
+.auth a:visited{
+     color: rgb(222,217,214);
+     
+}
+*/
+
+.logo{
+    margin-top:90px;
+    
+}
+
+.menu-item a{
+    
+    color: rgb(87,50,35);
+}
+
+.menu-item{
+   background-color:  color:rgb (244,243,242);
+    display: inline;
+    width:auto;
+    height: 20px;
+}
+
+.mainmenu{
+    background-color:  color:rgb (244,243,242);
+}
+
+/*
+header{
+    display: inline;
+}*/
+
+.logo{
+    margin-top: -85px;
 }
